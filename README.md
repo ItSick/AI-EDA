@@ -21,25 +21,3 @@ Customer account information – how long they’ve been a customer, contract, p
 
 Demographic info about customers – gender, age range, and if they have partners and dependents
 
-COLUMNS DESCRIPTION:
-  customerID                          Unique ID assigned to each customer
-  gender                              Customer’s gender
-  SeniorCitizen                       Indicates if the customer is a senior citizen (1 = Yes, 0 = No)
-  Partner                             Indicates if the customer has a partner(example: Husband/Wife) (Yes/No)
-  Dependents                          Indicates if the customer has dependents (example: children) (Yes/No)
-  tenure                              Number of months the customer has stayed with the company
-  PhoneService                        Indicates if the customer subscribes to phone service (Yes/No)
-  MultipleLines                       Indicates if customer has multiple phone lines (Yes/No/No phone service)
-  InternetService                     Type of internet service (DSL/Fiber optic/No)
-  OnlineSecurity                      Online security service (Yes/No/No internet service)
-  OnlineBackup                        Online backup service (Yes/No/No internet service)
-  DeviceProtection                    Device protection plan (Yes/No/No internet service)
-  TechSupport                         Tech support service (Yes/No/No internet service)
-  StreamingTV                         Streaming TV service (Yes/No/No internet service)
-  StreamingMovies                     Streaming movies service (Yes/No/No internet service)
-  Contract                            Contract term (Month-to-month, One year, Two year)
-  PaperlessBilling                    Indicates if customer opts for paperless billing (Yes/No)
-  PaymentMethod                       Payment method (e.g., 'Electronic check', 'Mailed check', etc.)
-  MonthlyCharges                      Amount charged to the customer monthly (in USD)
-  TotalCharges                        Total amount charged to the customer (in USD)
-  Churn                               Indicates if the customer has left (Yes/No)
